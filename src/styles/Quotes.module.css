@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=AR+One+Sans&family=Lato:wght@300&family=Open+Sans:wght@300;400&family=Poppins:wght@300&display=swap');
+
+body {
+    animation: color-changing 15s infinite;
+}
+
+@keyframes color-changing {
+    0%   {background: #18354e;}
+  50% {background: #2a5c89;}
+  100% {background: #18354e;}
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div1 {
+    width: 500px;
+    margin: auto;
+    padding: 10px;
+    background-color: #bfbfbf;
+    margin-top: 20vh;
+    border-radius: 15px;
+}
+
+.text {
+    padding: 10px;
+    background-color: aliceblue;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 10px;
+}
+
+.author {
+    font-size: small;
+    font-style: italic;
+}
+
+.category {
+    font-family: 'AR One Sans', sans-serif;
+}
+
+.button {
+    display: block;
+    margin: 10px auto 10px auto;
+    border-color: black;
+}
+
+.button a {
+    color: black;
+    text-decoration: none;
+}
